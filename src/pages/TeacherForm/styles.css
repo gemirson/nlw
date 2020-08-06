@@ -47,6 +47,9 @@
 
  }
 
+ #page-teacher-form main label {
+     color: var(--color-text-complement)
+ }
  #page-teacher-form main footer p{
      display:  flex;
      align-items: center;
@@ -80,4 +83,36 @@
 
      #page-teacher-form main footer button:hover{
         background: var(--color-secundary-dark);
+     }
+
+     @media(min-width:700px)
+     {
+         #page-teacher-form {
+            max-width : 100vw;
+         }
+
+         #page-teacher-form .page-header .header-content{
+             margin-bottom: 0;
+         }
+
+         #page-teacher-form main fieldset {
+             padding: 0 0.6rem;
+         }
+         #page-teacher-form main footer{
+             padding: 4.0rem 6.4rem;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+         }
+
+         #page-teacher-form main footer{
+             justify-content: space-between
+         }
+
+         #page-teacher-form main footer button {
+            width: 20rem;
+            margin-top: 0;
+        }
+
+
      }
