@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react'
+import React from 'react'
 import './styles.css'
 import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
 import api from '../../Services/api';
@@ -25,7 +25,7 @@ interface TeacherItemProps {
 }
 
 
-const TeacherItem: React.FunctionComponent<ClassItemProps>=({teacher})=>  {
+const TeacherItem: React.FunctionComponent<TeacherItemProps>=({teacher})=>  {
    
     function createNewConnections() {
 
