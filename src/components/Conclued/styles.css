@@ -1,0 +1,66 @@
+#page-conclued {
+  width: 100vw;
+  height: 800px;
+  background-color: var(--color-primary);
+}
+
+#page-conclued .backgroundImage {
+  margin-top: 10rem;
+  margin-left: 10rem;
+}
+
+#page-conclued .page-conclued-block {
+  height: 756px;
+  margin-top: -65rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#page-conclued .page-conclued-block img {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+#page-conclued .page-conclued-block h1 {
+  margin-top: 4rem;
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 3.8px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#page-conclued .page-conclued-block h2 {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  font: 1.2rem Poppins;
+  text-align: center;
+  color: #ffffff;
+}
+#page-conclued .page-conclued-block .normalWidth {
+  width: 100rem;
+}
+
+#page-conclued .page-conclued-block .SpecialWidth {
+  width: 30rem;
+}
+#page-conclued .page-conclued-block .return {
+  width: 15rem;
+  height: 5.6rem;
+  margin-left: 0rem;
+  background: var(--color-secundary);
+  color: var(--color-button-text);
+  border: 0;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font: 700 1.6rem Archivo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  margin-top: 5rem;
+}

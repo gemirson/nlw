@@ -1,0 +1,15 @@
+#page-managerUser {
+  background: var(--color-box-base);
+  height: 100%;
+  max-width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#page-managerUser .returnLogin {
+  margin-left: -25rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}

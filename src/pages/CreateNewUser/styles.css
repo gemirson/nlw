@@ -1,34 +1,42 @@
-#page-login {
+#page-newUser {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1 760px;
   grid-template-areas: "h m";
 }
-#page-login PageHeader {
-  grid-area: h;
+#page-newUser PageHeader {
+  grid-area: m;
 }
-#page-login main {
+#page-newUser main {
   background: var(--color-box-base);
   height: 100%;
   max-width: 50vw;
-  padding-left: 9rem;
-  padding-top: 25rem;
-  grid-area: m;
+  grid-area: h;
+}
+#page-newUser main .returnLogin {
+  margin-left: -25rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+#page-newUser main form {
+  padding-left: 0rem;
+  padding-top: 9rem;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-#page-login main fieldset {
+#page-newUser main fieldset {
   border: 0;
   padding: 0 4rem;
   max-width: 30rem;
 }
-#page-login main fieldset + fieldset {
+#page-newUser main fieldset + fieldset {
   margin-top: 6.4rem;
 }
-#page-login main fieldset legend {
+#page-newUser main fieldset legend {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -42,8 +50,21 @@
   width: 100%;
   padding-bottom: 1.6rem;
 }
+#page-newUser main fieldset h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+  color: var(--color-text-base);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  width: 17rem;
+  padding-bottom: 1.6rem;
+}
 
-#page-login main fieldset .block {
+#page-newUser main fieldset .block {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -58,7 +79,7 @@
   width: 100%;
   padding-bottom: 1.6rem;
 }
-#page-login main fieldset .block h2 {
+#page-newUser main fieldset .block h2 {
   margin-top: 1.5rem;
   font-family: Poppins;
   font-style: normal;
@@ -69,13 +90,12 @@
   color: #9c98a6;
 }
 
-#page-login main fieldset .block .remeber {
+#page-newUser main fieldset .block .remeber {
   text-decoration: none;
 }
-#page-login main .button {
+#page-newUser main button {
   width: 30rem;
   height: 5.6rem;
-  margin-left: 4rem;
   background: var(--color-secundary);
   color: var(--color-button-text);
   border: 0;
@@ -90,17 +110,16 @@
   margin-top: 3.2rem;
 }
 
-#page-login main .button:disabled {
+#page-newUser main button:disabled {
   background: var(--color-shape-desabled);
   color: var(--color-text-complement);
 }
-
-#page-login main footer {
+#page-newUser main footer {
   padding: 4rem;
   margin-top: 4.5rem;
 }
 
-#page-login main footer p {
+#page-newUser main footer p {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -109,7 +128,7 @@
   font-family: Poppins;
   color: var(--color-text-base);
 }
-#page-login main footer p h2 {
+#page-newUser main footer p h2 {
   margin-top: 0;
   font-family: Poppins;
   font-style: normal;
@@ -119,7 +138,7 @@
   text-align: right;
   color: var(--color-text-base);
 }
-#page-login main footer h1 {
+#page-newUser main footer h1 {
   color: var(--color-primary);
   font-family: Poppins;
   font-style: normal;
@@ -129,7 +148,7 @@
   text-align: lef;
 }
 
-#page-login main footer p h2 {
+#page-newUser main footer p h2 {
   margin-right: 0rem;
   font-family: Poppins;
   font-style: normal;
